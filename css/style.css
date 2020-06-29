@@ -6,7 +6,7 @@
 body {
   background: #DDD;
   font-family: 'Open Sans', arial, sans-serif;
-  background-image:url("/images/space-background.png");
+  background-image:url("images/space-background.png");
   /* background-repeat:repeat-y; */
   background-size:cover;
   background-position: center;
