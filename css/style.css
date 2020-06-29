@@ -1,0 +1,102 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: #DDD;
+  font-family: 'Open Sans', arial, sans-serif;
+  background-image:url("/images/space-background.png");
+  /* background-repeat:repeat-y; */
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.intro{
+  text-align: center;
+}
+.contact{
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  text-align:center;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+  border-radius: 20px;
+}
+.hero img {
+  max-width: 100%;
+  border-radius: 20px 20px 0px 0px ;
+  background-color: none;
+}
+aside.left{
+  float:left;
+
+}
+aside.right{
+  float:right;
+}
+.contact{
+  background-color:#DDD;
+}
+.contact,.intro{
+  padding: 40px;
+
+}
+iframe{
+  border-radius: 0 0 20px 20px;
+}

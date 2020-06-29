@@ -1,0 +1,18 @@
+body{
+  background color: #fff ;
+  background-image: none;
+}
+.container{
+
+  max-width:inherit;
+  margin: 0;
+}
+.hero img {
+  border-radius: 0 ;
+}
+aside.left{
+  float: none;
+}
+aside.right{
+  float: none;
+}
